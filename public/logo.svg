@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ssLogoGradient" x1="20%" y1="10%" x2="80%" y2="95%">
+      <stop offset="0%" stop-color="#bf5af2" />
+      <stop offset="28%" stop-color="#9333ea" />
+      <stop offset="60%" stop-color="#4f46e5" />
+      <stop offset="85%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#00d2ff" />
+    </linearGradient>
+    <filter id="ssGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#7c3aed" flood-opacity="0.35" />
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#2563eb" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="#0f1017" />
+  <rect width="198" height="198" x="1" y="1" rx="43" fill="none" stroke="#212335" stroke-width="2" />
+  <g filter="url(#ssGlow)">
+    <path
+      d="M 88 74
+         L 100 48
+         L 156 42
+         L 136 64
+         L 152 64
+         L 132 84
+         L 104 84
+         L 94 102
+         L 126 114
+         L 112 142
+         L 54 150
+         L 74 128
+         L 58 128
+         L 78 108
+         L 106 108
+         L 116 94
+         Z"
+      fill="url(#ssLogoGradient)"
+    />
+  </g>
+</svg>

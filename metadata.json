@@ -1,0 +1,6 @@
+{
+  "name": "SecondScreen",
+  "description": "Live esports companion app for predictions, live polls, and viewer engagement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
